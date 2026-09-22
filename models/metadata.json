@@ -1,0 +1,144 @@
+{
+  "best_model": "Gradient Boosting",
+  "split_date": "2012-06-15",
+  "features": [
+    "Store",
+    "Store_Avg_Sales",
+    "Holiday_Flag",
+    "Temperature",
+    "Fuel_Price",
+    "CPI",
+    "Unemployment",
+    "Year",
+    "Month",
+    "WeekOfYear",
+    "Quarter",
+    "Lag_1",
+    "Lag_2",
+    "Lag_4",
+    "Lag_52",
+    "Rolling_Mean_4",
+    "Rolling_Std_4"
+  ],
+  "metrics": {
+    "Naive (Lag 1)": {
+      "MAE": 51838.36,
+      "RMSE": 79029.2,
+      "MAPE": 4.99,
+      "R2": 0.9778
+    },
+    "Seasonal Naive (Lag 52)": {
+      "MAE": 53465.43,
+      "RMSE": 84106.06,
+      "MAPE": 5.46,
+      "R2": 0.9748
+    },
+    "Random Forest": {
+      "MAE": 39442.81,
+      "RMSE": 64500.78,
+      "MAPE": 3.89,
+      "R2": 0.9852
+    },
+    "Gradient Boosting": {
+      "MAE": 41125.09,
+      "RMSE": 64236.6,
+      "MAPE": 4.07,
+      "R2": 0.9853
+    }
+  },
+  "cv": {
+    "Random Forest": {
+      "Fold_RMSE": [
+        190265.62,
+        93707.09,
+        64780.81
+      ],
+      "Mean_RMSE": 116251.17
+    },
+    "Gradient Boosting": {
+      "Fold_RMSE": [
+        195413.71,
+        107169.23,
+        68006.52
+      ],
+      "Mean_RMSE": 123529.82
+    }
+  },
+  "recursive_evaluation": {
+    "Recursive_12W_MAE": 46564.71
+  },
+  "importance": [
+    [
+      "Lag_52",
+      0.5897
+    ],
+    [
+      "Store_Avg_Sales",
+      0.1891
+    ],
+    [
+      "Rolling_Mean_4",
+      0.1723
+    ],
+    [
+      "Lag_1",
+      0.0314
+    ],
+    [
+      "Lag_2",
+      0.0047
+    ],
+    [
+      "Lag_4",
+      0.0033
+    ],
+    [
+      "Unemployment",
+      0.002
+    ],
+    [
+      "WeekOfYear",
+      0.0017
+    ],
+    [
+      "CPI",
+      0.0012
+    ],
+    [
+      "Fuel_Price",
+      0.001
+    ],
+    [
+      "Rolling_Std_4",
+      0.001
+    ],
+    [
+      "Temperature",
+      0.0009
+    ],
+    [
+      "Store",
+      0.0007
+    ],
+    [
+      "Month",
+      0.0005
+    ],
+    [
+      "Holiday_Flag",
+      0.0002
+    ],
+    [
+      "Year",
+      0.0001
+    ],
+    [
+      "Quarter",
+      0.0001
+    ]
+  ],
+  "rows": 6435,
+  "stores": 45,
+  "start": "2010-02-05",
+  "end": "2012-10-26"
+}
