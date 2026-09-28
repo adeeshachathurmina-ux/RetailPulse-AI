@@ -13,6 +13,8 @@
 **RetailPulse AI** is an end-to-end Machine Learning and Time-Series Analytics application designed to forecast weekly sales across **45 retail outlets** (historical Walmart dataset). Built from the perspective of an ambitious **2nd-year undergraduate Data Science student**, this system demonstrates rigorous time-series principles, lookahead bias prevention, dynamic scenario simulation, and an intuitive, executive-ready dashboard.
 
 ---
+Streamlit web link
+https://retailpulse-ai1.streamlit.app/
 
 ## 🎯 What It Does
 * 📊 **Executive Overview:** Real-time business KPIs ($ total revenue, weekly averages, volume leaders) and annual seasonal surge analysis.
