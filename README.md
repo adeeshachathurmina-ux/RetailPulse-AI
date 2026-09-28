@@ -16,6 +16,9 @@
 Streamlit web link
 https://retailpulse-ai1.streamlit.app/
 
+Kaggle Dataset Link
+https://www.kaggle.com/datasets/yasserh/walmart-dataset?resource=download
+
 ## 🎯 What It Does
 * 📊 **Executive Overview:** Real-time business KPIs ($ total revenue, weekly averages, volume leaders) and annual seasonal surge analysis.
 * 🏪 **Store Deep Dive:** Interactive per-store analytics featuring 4-week smoothed moving averages, holiday impact flags, and monthly seasonality profiles.
